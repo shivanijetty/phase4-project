@@ -1,1 +1,55 @@
+.grandparent-form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
 
+.parent-submit-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfc;
+    border: solid #191e34 5px;
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.gallery-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.login-header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.input-field{
+    border: solid black 2px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.submit-button{
+    cursor: pointer;
+    background: #e0cf0b;
+   
+}
+/* .gallery-header{
+    text-align: center;
+} */
