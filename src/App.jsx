@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Route, Routes } from "react-router-dom"
 import './App.css'
 import Login from './Login'
+import Profile from './Profile'
 
 import GalleryWidget from './GalleryWidget'
 // import User from './User'
@@ -14,7 +15,7 @@ function App() {
       <Login />      
       <Routes>
         {/* <Route path="/" element={<Login />} /> */}
-      <UploadWidget/>
+      {/* <UploadWidget/> */}
       {/* <GalleryWidget/> */}
         <Route path="/gallery" element={<Profile />} />              
       </Routes>
