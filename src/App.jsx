@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Route, Routes } from "react-router-dom"
 import './App.css'
 import Login from './Login'
 import Profile from './Profile'
@@ -8,8 +9,10 @@ function App() {
   
   return (
     <div className="App">
-      <Profile />
-      <Login />      
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/gallery" element={<Profile />} />              
+      </Routes>
     </div>
   )
 }
