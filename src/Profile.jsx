@@ -9,8 +9,8 @@ import UploadWidget from './UploadWidget'
 function Profile() {
     
   return(
-    <div>
-      <h1>Profile Page</h1>
+    <div className="profile-box">
+      <h1 className="gallery-header">Welcome!</h1>
       <UploadWidget/>
       {/* <GalleryWidget/> */}
       <div>

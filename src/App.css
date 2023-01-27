@@ -47,8 +47,19 @@
 
 .submit-button{
     cursor: pointer;
-    background: #e0cf0b;
+    background: 00000;
    
+}
+
+.upload-button{
+    cursor: pointer;
+    
+}
+
+.profile-box{
+    display: flex;
+    border-color: black;
+    border-width: 5px;
 }
 /* .gallery-header{
     text-align: center;
