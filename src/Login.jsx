@@ -48,11 +48,11 @@ function Login() {
       <div className="parent-submit-div">
         <div classname="" onSubmit={(e) => { handleSubmit(e) }}>
               <h2 className="login-header">LOG IN</h2><br />
-              <form>
-            <input className="input-field"  type="email" value={formData.email} name='email' onChange={e => handleChange(e)} placeholder="EMAIL" /><br />
+              <form className="form">
+                  <input className="input-field"  type="email" value={formData.email} name='email' onChange={e => handleChange(e)} placeholder="EMAIL" /><br />
                   <input className="input-field" type="password" value={formData.password} name='password' onChange={e => handleChange(e)} placeholder="PASSWORD" /><br />
                   <div className="submit-button-div">
-                      <input className="sumbit-button" type="submit" />                      
+                      <input className="submit-button" type="submit" />                      
                   </div>
               </form>
         </div>
