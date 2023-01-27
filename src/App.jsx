@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Route, Routes } from "react-router-dom"
 import './App.css'
 import Login from './Login'
+import Profile from './Profile'
 
 import GalleryWidget from './GalleryWidget'
 // import User from './User'
@@ -9,14 +10,10 @@ import GalleryWidget from './GalleryWidget'
 function App() {
   
   return (
-    <div className="App">
-      <h3>Log in to your portfolio below:</h3>
-      <Login />      
+    <div className="App">     
       <Routes>
-        {/* <Route path="/" element={<Login />} /> */}
-      <UploadWidget/>
-      {/* <GalleryWidget/> */}
-        <Route path="/gallery" element={<Profile />} />              
+        <Route path="/" element={<Login />} />
+        <Route path="/profile" element={<Profile />} />              
       </Routes>
     </div>
   )
